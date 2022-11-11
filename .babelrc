@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@src": "./src/",
+          "@screen": "./src/screens/",
+          "@i18": "./src/i18n/i18n.tsx",
+          "@constant": "./src/constants/constant.tsx",
+          "@image": "./src/assets/images/",
+          "@action": "./src/redux/actions/index.js",
+          "@component": "./src/components",
+          "@theme": "./src/constants/theme.tsx",
+          "@R": "./src/assets/R.tsx",
+          "@api": "./src/constants/api.tsx"
+        }
+      }
+    ]
+  ]
+}
